@@ -23,9 +23,18 @@
 // const vowel = isAVowel("a")
 // console.log(vowel)
 
-function getTwoLengths(stringOne, stringTwo){
-    let lengthOne = stringOne.length;
-    let lengthTwo = stringTwo.length;
-    stArrLength = [lengthOne,lengthTwo];
-    return stArrLength;
-}   console.log(getTwoLengths("Hank", "Hippopopalous"));
+// function getTwoLengths(stringOne, stringTwo){
+//     let lengthOne = stringOne.length;
+//     let lengthTwo = stringTwo.length;
+//     stArrLength = [lengthOne,lengthTwo];
+//     return stArrLength;
+// }   console.log(getTwoLengths("Hank", "Hippopopalous")); 
+
+function sumArray() {
+    let sum = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        sum += arguments [i];
+    }
+    return sum;
+}
+console.log(sumArray([1,2,3,4,5,6]));
