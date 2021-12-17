@@ -12,13 +12,20 @@
 // }
 // console.log(calculateCube(5));
 
-function isAVowel (letter) {
-    if (letter =='a' || letter =='e' || letter == 'i'|| letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ) {
-        return true
-    }else{
-        return false
-    }
-}
+// function isAVowel (letter) {
+//     if (letter =='a' || letter =='e' || letter == 'i'|| letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ) {
+//         return true
+//     }else{
+//         return false
+//     }
+// }
 
-const vowel = isAVowel("a")
-console.log(vowel)
+// const vowel = isAVowel("a")
+// console.log(vowel)
+
+function getTwoLengths(stringOne, stringTwo){
+    let lengthOne = stringOne.length;
+    let lengthTwo = stringTwo.length;
+    stArrLength = [lengthOne,lengthTwo];
+    return stArrLength;
+}   console.log(getTwoLengths("Hank", "Hippopopalous"));
