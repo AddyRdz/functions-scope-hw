@@ -39,10 +39,16 @@
 // }
 // console.log(sumArray([1,2,3,4,5,6]));
 
-checkPrime(){
+// checkPrime(){
 
-}
+// }
 
-checkPrime(){
+// checkPrime(){
+
+// }
+
+function printLongestWord() {
     
+return printLongestWord.length
 }
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter","big", "Blob"]));
