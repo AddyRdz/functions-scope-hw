@@ -30,11 +30,19 @@
 //     return stArrLength;
 // }   console.log(getTwoLengths("Hank", "Hippopopalous")); 
 
-function sumArray() {
-    let sum = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        sum += arguments [i];
-    }
-    return sum;
+// function sumArray() {
+//     let sum = 0;
+//     for (let i = 0; i < arguments.length; i++) {
+//         sum += arguments [i];
+//     }
+//     return sum;
+// }
+// console.log(sumArray([1,2,3,4,5,6]));
+
+checkPrime(){
+
 }
-console.log(sumArray([1,2,3,4,5,6]));
+
+checkPrime(){
+    
+}
