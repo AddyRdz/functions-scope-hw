@@ -1,4 +1,4 @@
-console.log('js loaded')
+// console.log('js loaded')
 // So to me the parameter is sort of like having an acre of land and the argument is what you send into the acre of land 
 // but you don't go before or over your acrage. 
 
@@ -7,7 +7,18 @@ console.log('js loaded')
 
 // 3. You run the risk of running a loop and not receiving a return.
 
-function calculateCube(num1){
-    return(num1*num1*num1)
+// function calculateCube(num1){
+//     return(num1*num1*num1)
+// }
+// console.log(calculateCube(5));
+
+function isAVowel (letter) {
+    if (letter =='a' || letter =='e' || letter == 'i'|| letter == 'o' || letter == 'u' || letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' ) {
+        return true
+    }else{
+        return false
+    }
 }
-console.log(calculateCube(5));
+
+const vowel = isAVowel("a")
+console.log(vowel)
